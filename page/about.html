@@ -1,0 +1,173 @@
+ <!--cuando creo la pagina no me va a salir nada, tengo que apetar ! y en el title cambia el nombre de la pagina ( en este caso about us)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Link de tipografia-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+
+   <!--Link de bootstrap-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>About</title>
+</head>
+
+
+
+
+
+<body>
+  <header>
+        <nav class="navbar navbar-expand-lg bg-orange">
+          <div class="container-fluid">
+            <img src="../img/dev-logo.png"alt="dev-logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" class="text-buttom">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="page/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Rates</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu bg-orange" >
+                    <li><a class="dropdown-item" href="home.htlm">Home</a></li>
+                    <li><a class="dropdown-item" href="page/about.html">About</a></li>
+                    <li><a class="dropdown-item" href="#">Rates</a></li>
+                    <li><a class="dropdown-item" href="#">Gallery</a></li>
+                    <li><a class="dropdown-item" href="#">Contact</a></li>
+                  </ul>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      <!--link de mi css-->
+          <link rel="stylesheet"href="css/style.css">
+  
+  </header>
+
+
+  <main class="container">
+    <div class="navegation-mobile"> 
+      <div class="texto">
+        <p>About Us</p>
+        <h1>More Information 
+          <span> about our park </span></h1>
+      </div>
+
+      <div class="parrafo">
+        <p>
+          Welcome to our RV Resort located in southern Tennessee. White Sands
+          RV Resort is brand new with 11 sites that are full hookups that
+          boast all pull-through spaces up to 85 ft long. Set within a
+          beautiful, serene, rural setting in southeastern Tennessee close to
+          numerous attractions (We are just a hop skip and a jump from Pigeon
+          Forge). Set on 65 acres so you can explore and appreciate the
+          natural views, flora and fauna of the area.
+        </p>
+
+        <p>
+          The history of Greeneville goes back to 10,0000 BC where natives
+          used the land to hunt and gather until the first Euro-American
+          settlers arrived slightly before 1772. North of the city was also
+          the famous Great Indian War Path. You can also visit the Andrew
+          Johnson Historical Site of the 17th President of the United States,
+          Andrew Johnson, who began his political career in Greeneville.
+        </p>
+
+        <p>
+          We welcome your fur babies and they can enjoy our fully enclosed, 3
+          acre dog park. We also offer a spacious clubhouse that has high
+          speed internet, 2 ADA bathrooms, washers and dryers. We strive to be
+          a quiet venue and this is our focus. Even though the park impresses
+          relaxation; there are numerous nearby attractions, entertainment and
+          everything you would desire to enjoy yourselves during your stay.
+        </p>
+      </div>
+    </div>
+  </main>
+
+ <!--NOTA: Para generar una ultima columba en el texto utilizo EN EL TECLADO (OPT+Z)-->
+ <section>
+
+  <div id="carouselExample" class="carousel slide about-carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="../img/imagen-uno.jpg"
+          class="d-block w-100"
+          alt="imagen uno"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="../img/imagen-dos.jpg"
+          class="d-block w-100"
+          alt="imagen dos"
+        />
+      </div>
+      <div class="carousel-item">
+        <img src="../img/imagen-tres.jpg" 
+        class="d-block w-100" alt="imagen tres"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</section>
+      
+    
+
+    <footer>
+        <!--eetiqueta para contenido secundario-->
+        <h3>© 2024 COPYRIGHT. ALL RIGHTS RESERVED</h3>
+    </footer>
+<!--script js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
