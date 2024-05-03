@@ -1,0 +1,43 @@
+    //mixin paramentros
+    // es mas espesifico
+
+@mixin medidas ($width, $height, $font){
+    width: $width;
+    height: $height;
+    font-size: $font;
+}
+
+
+
+
+//mixin sin parametros
+
+@mixin flex{
+display: flex;
+justify-content: center;
+align-items: center; 
+}
+
+.footer{
+    @include flex;
+    @include medidas(300px, 100px, 14px )
+
+}
+
+.button{
+    background-color: $color-textos;
+    color: $color-secundario;
+    display: inline-block;
+    font-size: 18px;
+    font-family:  "Montserrat", sans-serif;
+    margin: 20px;
+    padding: 20px;
+    }
+
+
+
+    
+
+
+
+

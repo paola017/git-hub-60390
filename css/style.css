@@ -1,229 +1,200 @@
-/*los comentarios en css se hacen de esta forma*/
-
-/*la sintaxis se esctibe de la siguente forma
-
-Elemento {
-    propiedades:valor
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  font-size: 14px;
 }
-*/
 
-
-/*-------------------------------------------------------------- */
+.button {
+  background-color: #2B2B2B;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px;
+  padding: 20px;
+}
 
 /* estilis generales */
-
-body{
-    background-color:#f8f8f4;
-    color:#2B2B2B;  
+body {
+  background-color: #FFFFFF;
+  color: #2B2B2B;
 }
 
 /*-------------------------------------------------------------- */
-
-/*Estilos de header*/
-
-header .bg-orange{
-    background-color:#D4632A;
+/* estolios de header*/
+header .bg-orange {
+  background-color: #D4632A;
 }
-
-Header img {
-    width: 10%;
+header img {
+  width: 10%;
 }
-
-.text-buttom {
-    color: #E6E6DD;
-    margin: 50px 50px 50px 50px;
+header .text-buttom {
+  color: #FFFFFF;
+  margin: 50px 50px 50px 50px;
 }
 
 /*-------------------------------------------------------------- */
-
-/* estilis main */
-
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 120px 0px 50px 0px;
-    margin: 50px 50px 50px 50px;
+/* estolios de main*/
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px 50px 0px;
+  margin: 50px 50px 50px 50px;
 }
-
-main h1{
-    color:#D4632A;
-    text-align: center;
-    font-family: "Rowdies", sans-serif;
-    text-transform: uppercase;
-    font-size: 70px;
-    font-weight: 900;
-    line-height: 70px;
-
-    
+main h1 {
+  color: #D4632A;
+  text-align: center;
+  font-family: "Rowdies", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 3.8rem;
+  line-height: 1;
 }
-main .texto p{
-    text-align: center;
-  
-
+main .texto p {
+  text-align: center;
 }
-
+main .texto h2 {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
 main p {
-    font-size: 16px;
-    font-family:  "Montserrat", sans-serif;
-    line-height: 26px;
-    font-weight: 400;
-    color:#2B2B2B;
-    text-align: justify;
-    
-
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 26px;
+  font-weight: 400;
+  color: #2B2B2B;
+  text-align: justify;
 }
-
-/*estolo por class*/
-
-main .texto{
-    text-align: center;
-    margin: 50px 0px 50px 50px;
+main .texto {
+  text-align: center;
+  margin: 30px 30px 30px 30px;
 }
-
-main .img{
-    display: flex;
-    justify-content: center;
+main .img {
+  display: flex;
+  justify-content: right;
 }
-
-main .img img{
-    width: 70%;
-    border-radius: 8px 8px 8px 8px;
+main img {
+  width: 90%;
+  border-radius: 8px 8px 8px 8px;
 }
-
-main .button{
-    background-color: #2B2B2B;
-    color: #E6E6DD;
-    display: inline-block;
-    font-size: 18px;
-    font-family:  "Montserrat", sans-serif;
-    margin: 20px;
-    padding: 20px;
-} 
-
+main .parrafo.p {
+  text-align: center;
+}
 
 /*-------------------------------------------------------------- */
-
-
-/* estilis section */
-
-section{
-    padding: 100px 0px 100px 0px;
-    margin: 50px 50px 50px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* estolios de section*/
+section {
+  padding: 100px 0px 100px 0px;
+  margin: 50px 50px 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-section h1{
-    display: flex;
-    color:#D4632A;
-    text-align: center;
-    font-family: "Rowdies", sans-serif;
-    font-size: 50px;
-    font-weight: 800;
-    line-height: 70px;
-    margin: 50px 0px 50px 50px;   
+section h1 {
+  display: flex;
+  color: #D4632A;
+  text-align: center;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 800;
+  margin: 50px 0px 50px 50px;
+  font-size: 3.2rem;
+  line-height: 1;
 }
-
 section p {
-    font-size: 16px;
-    font-family:  "Montserrat", sans-serif;
-    line-height: 26px;
-    font-weight: 400;
-    color:#2B2B2B;
-    text-align: justify;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 26px;
+  font-weight: 400;
+  color: #2B2B2B;
+  text-align: justify;
+  padding: 0px 1.5rem 0px 1.5rem;
+}
+section .parrafo p {
+  padding: 0px 1.5rem 0px 1.5rem;
+}
+section .parrafo h2 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+section .parrafo h3 {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 /*-------------------------------------------------------------- */
-
 /* estilis footer */
-
-footer{
-    background-color:#2B2B2B;
-    margin: 10px 10px;
-    padding: 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    }
-
+footer {
+  background-color: #D4632A;
+  padding: 20px 20px;
+}
 footer h3 {
-    color:#f8f8f4;
-    font-family:  "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 500;
-    text-align: center;
-    margin: 0;
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
 }
 
 /*-------------------------------------------------------------- */
-
 home-intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  section h1 {
-    font-size: 2.5rem;
-    line-height: 1.0;
-  }
-
-  section .parrafo p {
-    padding: 0px 1.5rem 0px 1.5rem;
-  }
- 
-  
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 /*-------------------------------------------------------------- */
-
 .navegation-mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-  .parrafo,
+.parrafo,
 .texto {
   flex: 1;
 }
 
 main h1 {
-    font-size: 2.5rem;
-    line-height: 1.0;
-  
-  }
-  
-  main .parrafo p {
-    padding: 0px 1.5rem 0px 1.5rem;
-  }
-  
-  .about-carousel {
-    width: 100%;
-    max-width: 1024px;
-  }
-  
-  .about-carousel img {
-    width: 100%;
-    aspect-ratio: 16/9;
-    object-fit: cover;
-  }
-  
-  @media (min-width: 1024px) {
-    .navegation-mobile {
-      flex-direction: row;
-    }
-    main h1 {
-      font-size: 3.5rem;
-      
-    }
-    main .parrafo p {
-      padding: 0px 3rem 0px 3rem;
-    }
+  font-size: 2.5rem;
+  line-height: 1;
+}
 
+main .parrafo p {
+  padding: 0px 1.5rem 0px 1.5rem;
+}
+
+.about-carousel {
+  width: 100%;
+  max-width: 1024px;
+}
+
+.about-carousel img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .navegation-mobile {
+    flex-direction: row;
   }
+  main h1 {
+    font-size: 3.5rem;
+  }
+  main .parrafo p {
+    padding: 0px 3rem 0px 3rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

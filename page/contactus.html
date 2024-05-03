@@ -3,46 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>contact Us</title>
-</head>
-<body>
-    <header>
-        <!--etiqueta para imagen-->
-          <!--para llamar a la omagen o el logo en otra pagina. en este caso el about us tengo que llamarla ../encontrar la carpera donde esta y buscar el nombre-->
-        <img src="../img/dev-logo.png"alt="dev-logo">
-        <!--etiqueta para el menu de navegacion-->
-        <nav>
-            <!--lista desordenada-->
-            <ul>
-                <!--para ir de nuevo al home ( index) tengo que llamarlo ../index.htlm-->
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../page/about.html">About Us</a></li>
-                <li><a href="../page/rates.html">Rates</a></li>
-                <li><a href="../page/gallery.html">Gallery</a></li>
-                <li><a href="page/contactus.html">Contact Us</a></li>
-                
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Contact us</h1>
-        <h2>Our Location</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsa vero, doloribus quas laboriosam maxime earum dolor pariatur, minima illo aspernatur ad, molestiae eligendi autem cum. Iure veniam adipisci accusantium.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsa vero, doloribus quas laboriosam maxime earum dolor pariatur, minima illo aspernatur ad, molestiae eligendi autem cum. Iure veniam adipisci accusantium.
-            </p>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsa vero, doloribus quas laboriosam maxime earum dolor pariatur, minima illo aspernatur ad, molestiae eligendi autem cum. Iure veniam adipisci accusantium.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsa vero, doloribus quas laboriosam maxime earum dolor pariatur, minima illo aspernatur ad, molestiae eligendi autem cum. Iure veniam adipisci accusantium.
-                </p>
-                <h3 class="red"> Subtitle 3</h3>
-                <h3 id="green"> subtitble 4</h3>
+
+     <!--Link de tipografia-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+
     
+    <!--Link de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+      <!--Siempre tenog que llamar a mi CSS (IMPORTANTE) (link de mi css)-->
+      <link rel="stylesheet"href="../css/style.css">
+
+     <title>contactus</title>
+
+</head>
+
+<!--estructura semantica de html-->
+
+<body>        
+    <!--menu-->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-orange">
+        <div class="container-fluid">
+          <img src="../img/dev-logo.png"alt="dev-logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" class="text-buttom">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="rates.html">Rates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contactus.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+  </header>
+  
+        <!--link de mi css-->
+    </header>
+
+    <main class="container">
+      <div class="navegation-mobile">
+       <div class="texto">
+        
+        <h2>Contact us</h2>
+        <h1>White Sands RV Resort</h1> 
+        <p>Visit White Sands RV Resort our Greeneville
+          Tennessee RV Resort with space and beautiful
+          scenery. We are open year round but space is
+          limited. If you have any questions, please
+          call us or complete the form below</p>
+
+          <img src="../img/imagen-dos.jpg" class="img-fluid" alt="...">
+           
+        </div>
+      </div>
+    </div>
     
     </main>
+
+    <section class="container">
+      <div class="navegation-mobile">
+         <div class="texto">
+
+    <h1>Get In Touch</h1>
+      </div>
+    
+    <div class="parrafo">
+      
+      <h2>Meet Us</h2>
+      <h3>1210 White Sands Rd, Greeneville, TN 37743</h3>
+      
+      <h2>Call Us</h2>
+      <h3>865-888-6240</h3>
+
+      <h2>Email Us </p>
+      <h3>whitesandsrvresort@gmail.com.</h3>
+
+      
+       </div>
+     </div>
+    </div>
+
+</section>
+        
+
+  
+  
+
+  
+
+
+
+    
     <footer>
         <!--eetiqueta para contenido secundario-->
         <h3>© 2024 COPYRIGHT. ALL RIGHTS RESERVED</h3>
     </footer>
+    
+    <!--script js-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>

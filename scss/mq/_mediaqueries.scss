@@ -1,0 +1,48 @@
+//estilos mq//
+
+.navegation-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.parrafo,
+.texto {
+flex: 1;
+}
+
+main h1 {
+  font-size: 2.5rem;
+  line-height: 1.0;
+
+}
+
+main .parrafo p {
+  padding: 0px 1.5rem 0px 1.5rem;
+}
+
+.about-carousel {
+  width: 100%;
+  max-width: 1024px;
+}
+
+.about-carousel img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .navegation-mobile {
+    flex-direction: row;
+  }
+  main h1 {
+    font-size: 3.5rem;
+    
+  }
+  main .parrafo p {
+    padding: 0px 3rem 0px 3rem;
+  }
+
+}
