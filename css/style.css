@@ -54,13 +54,19 @@ main h1 {
   font-size: 3.8rem;
   line-height: 1;
 }
-main .texto p {
-  text-align: center;
+main h1:hover {
+  color: #2B2B2B;
 }
 main .texto h2 {
-  font-size: 25px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  color: #D4632A;
+  font-family: "Rowdies", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2.8rem;
+  line-height: 1;
+}
+main .texto p {
+  text-align: center;
 }
 main p {
   font-size: 16px;
@@ -95,15 +101,15 @@ section {
   align-items: center;
   justify-content: center;
 }
-section h1 {
-  display: flex;
+section .texto h2 {
   color: #D4632A;
-  text-align: center;
   font-family: "Rowdies", sans-serif;
-  font-weight: 800;
-  margin: 50px 0px 50px 50px;
-  font-size: 3.2rem;
+  font-weight: 900;
+  font-size: 3.8rem;
   line-height: 1;
+}
+section h2:hover {
+  color: #2B2B2B;
 }
 section p {
   font-size: 16px;
